@@ -127,11 +127,13 @@ class CartPage extends Component {
         )}
         {!loading && cartItems.length === 0 && (
           <div className="empty-results cart-items d-flex align-items-center justify-content-center">
-            Your cart is empty. Head over to the{" "}
-            <Link to="/" className="pink-color">
-              store
-            </Link>{" "}
-            to add some items
+            <p className="text-align-center">
+              Your cart is empty. Head over to the{" "}
+              <Link to="/" className="pink-color">
+                store
+              </Link>{" "}
+              to add some items
+            </p>
           </div>
         )}
         <Footer />
