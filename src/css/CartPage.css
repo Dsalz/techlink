@@ -1,0 +1,14 @@
+.cart-total {
+  margin-top: 30px;
+  width: 100%;
+}
+
+button.clear-cart-btn {
+  max-width: 300px;
+  margin: 30px auto;
+  height: 50px;
+}
+
+.cart-items {
+  min-height: calc(100vh - 500px);
+}

@@ -1,0 +1,29 @@
+nav.site-nav {
+  height: 90px;
+}
+
+nav.site-nav a {
+  color: #ea638c;
+}
+
+a.site-logo {
+  font-size: 30px;
+}
+
+.site-nav-links a {
+  position: relative;
+}
+
+.site-nav-links a svg {
+  width: 20px;
+  height: 20px;
+}
+
+.site-nav-links a span {
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  padding: 2px 5px;
+  border-radius: 50%;
+  font-size: 12px;
+}
