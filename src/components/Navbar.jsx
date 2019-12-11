@@ -20,7 +20,7 @@ const Navbar = ({ totalItems }) => {
         </NavLink>
         <div className="site-nav-links">
           <Link to="/cart">
-            <span className="white-color pink-bg">
+            <span className="white-color pink-bg text-align-center">
               {totalItems || state.items}
             </span>
             <svg

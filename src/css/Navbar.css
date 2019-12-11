@@ -1,3 +1,9 @@
+header.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 14;
+}
+
 nav.site-nav {
   height: 90px;
 }
@@ -12,18 +18,30 @@ a.site-logo {
 
 .site-nav-links a {
   position: relative;
+  transition: all 0.2s linear;
+}
+
+.site-nav-links a > * {
+  transition: all 0.2s linear;
+}
+
+.site-nav-links a:hover > * {
+  transform: scale(1.1);
 }
 
 .site-nav-links a svg {
   width: 20px;
   height: 20px;
+  z-index: 15;
 }
 
 .site-nav-links a span {
   position: absolute;
   top: -15px;
   right: -10px;
-  padding: 2px 5px;
+  padding: 2px 3px;
+  min-width: 13px;
   border-radius: 50%;
   font-size: 12px;
+  z-index: 16;
 }
